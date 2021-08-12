@@ -718,6 +718,7 @@
           if (this.login.usuario === this.acceso.usuario && this.login.password === this.acceso.password) {
             this.appLogin = false;
             this.appTable = true;
+            this.errorMessage = ""
           } else {
             this.errorMessage = "Usuario o contraseña incorrecto(a)";
             this.appTable = false;
