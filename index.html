@@ -20,7 +20,7 @@
   <body class="bg-light">
     <div id="app" class="container">
       <!-- componente hijo LOGIN -->
-      <login v-show="appLogin" @controlado="this.accesoAcl"></login>
+      <login v-show="appLogin" @controlado="accesoAcl"></login>
 
       <!-- componente padre CRUD -->
       <div id="home" v-show="!appLogin">
